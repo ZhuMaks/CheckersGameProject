@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CheckersGameProject.Game.Board">
+    <Position X="1.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIgAEAAAAAAAgABAAAAKAACQIADMQYAAAAAAgAAAJA=</HashCode>
+      <FileName>Game\Board.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_cells" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="CheckersGameProject.Game.Move">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAAAAAAAAIAAEABADAAAAAgUQAAAASEAIAAIABA=</HashCode>
+      <FileName>Game\Move.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_movedPiece" />
+      <Property Name="MovedPiece" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="_capturedPieces" />
+      <Property Name="CapturedPieces" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="CheckersGameProject.Game.MoveValidator">
+    <Position X="5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgIABAA=</HashCode>
+      <FileName>Game\MoveValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CheckersGameProject.Pieces.CheckerPiece">
+    <Position X="3.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAABA=</HashCode>
+      <FileName>Pieces\CheckerPiece.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CheckersGameProject.Pieces.KingPiece">
+    <Position X="5.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAABA=</HashCode>
+      <FileName>Pieces\KingPiece.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CheckersGameProject.Pieces.Piece">
+    <Position X="4.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAIAIAAAABAAAAAAAAAAgAAAAAAgAQAABA=</HashCode>
+      <FileName>Pieces\Piece.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Color" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CheckersGameProject.Players.BotPlayer" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAIAAAAQAAAAAAAAQAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Players\BotPlayer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Difficulty" />
+      <Property Name="Color" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CheckersGameProject.Players.HumanPlayer" BaseTypeListCollapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAQAAAAAAACAAAAQgAAAAAA=</HashCode>
+      <FileName>Players\HumanPlayer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Color" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CheckersGameProject.Program" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CheckersGameProject.Game.GameManager">
+    <Position X="12" Y="2" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="CheckersGameProject.Game.GameManager.MoveMadeHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Game\GameManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="CheckersGameProject.Game.GameManager.PlayerChangedHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Game\GameManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="CheckersGameProject.Game.GameManager.GameEndedHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Game\GameManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAgAUACEAAAAEABAEACACAAAAAASAAI=</HashCode>
+      <FileName>Game\GameManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_board" />
+      <Field Name="_currentPlayer" />
+      <Property Name="Winner" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CheckersGameProject.GameRecords.MoveRecord">
+    <Position X="14" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAIAAAQAADAAAAAAAAAAAAAgAIAAAAAA=</HashCode>
+      <FileName>GameRecords\MoveRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="CheckersGameProject.Players.IPlayer">
+    <Position X="12.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAQAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Players\IPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="CheckersGameProject.Pieces.PieceColor">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pieces\PieceColor.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CheckersGameProject.Players.BotDifficulty">
+    <Position X="14" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAA=</HashCode>
+      <FileName>Players\BotPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
