@@ -7,13 +7,13 @@
 This is a **console-based Checkers game**, built in **C# (.NET)** with clean architecture and complete game logic.
 The project includes:
 
-✔ Human vs Human mode
-✔ Human vs Bot (4 difficulty levels)
-✔ Move history serialization to JSON
-✔ Game replay system
-✔ Event-driven architecture (delegates + events)
-✔ Pretty console board with colors
-✔ Full rules: mandatory captures, multi-captures, crowning, win detection
+Human vs Human mode
+Human vs Bot (4 difficulty levels)
+Move history serialization to JSON
+Game replay system
+Event-driven architecture (delegates + events)
+Pretty console board with colors
+Full rules: mandatory captures, multi-captures, crowning, win detection
 
 This project demonstrates **OOP design**, **serialization**, **AI logic**, and **event-based programming**.
 
@@ -112,7 +112,7 @@ The replay engine:
 * .NET SDK 6 / 7 / 8
 * Windows, Linux, or macOS console
 
-### ▶ Run the game
+###  Run the game
 
 Clone the repository:
 
@@ -148,7 +148,7 @@ GameEnded
 
 They allow tracking actions and expanding functionality without modifying core logic.
 
-### 📦 Serialization
+### Serialization
 
 JSON serialization:
 
