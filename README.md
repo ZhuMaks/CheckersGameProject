@@ -1,10 +1,3 @@
-Ось готовий, відформатований та ідеальний **README.md**, який можна просто вставити в GitHub.
-Він підтримує Markdown, має стилізовані секції, бейджі, emoji — виглядає професійно.
-
----
-
-#  **Checkers Game Project (Console Edition)**
-
 *A fully-featured console checkers game written in C#, with bot AI, move serialization, and game replay.*
 
 ---
